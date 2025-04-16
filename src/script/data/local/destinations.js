@@ -1,41 +1,72 @@
 const destinations = [
     {
         strTitle: 'Candi Borobudur',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Borobudur-Nothwest-view.jpg',
+        strImageUrl: '/assets/img/candi-borobudur.jpeg',
         strDescriptionIND: 'Salah satu keajaiban dunia yang terletak di Magelang, Jawa Tengah.',
         strProvince: 'Jawa Tengah'
     },
     {
         strTitle: 'Candi Prambanan',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Prambanan_Temple_Complex.jpg​',
+        strImageUrl: '/assets/img/candi-prambanan.jpeg',
         strDescriptionIND: 'Kompleks candi Hindu terbesar di Indonesia dengan arsitektur megah.',
         strProvince: 'Jawa Tengah'
     },
     {
         strTitle: 'Tanah Lot',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Tanah_Lot_Bali.jpg',
+        strImageUrl: '/assets/img/tanah-lot.jpeg',
         strDescriptionIND: 'Pura unik di Bali yang terletak di atas batu karang di tepi laut.',
         strProvince: 'Bali'
     },
     {
         strTitle: 'Pink Beach',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Pink_Beach_Komodo.jpg',
+        strImageUrl: '/assets/img/pink-beach.jpeg',
         strDescriptionIND: 'Pantai unik dengan pasir berwarna merah muda yang langka di dunia.',
         strProvince: 'NTB'
     },
     {
         strTitle: 'Gunung Bromo',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Bromo_Tengger_Semeru_National_Park.jpg',
-        strDescriptionIND:' Ikon wisata alam dengan lautan pasir dan sunrise yang epic.',
+        strImageUrl: '/assets/img/gunung-bromo.jpeg',
+        strDescriptionIND: 'Ikon wisata alam dengan lautan pasir dan sunrise yang epic.',
         strProvince: 'Jawa Timur'
     },
     {
         strTitle: 'Gunung Rinjani',
-        strImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Mount_Rinjani.jpg​',
+        strImageUrl: '/assets/img/gunung-rinjani.jpeg',
         strDescriptionIND: 'Salah satu gunung tertinggi di Indonesia dengan Danau Segara Anak.',
         strProvince: 'NTB'
+    },
+    {
+        strTitle: 'Tana Toraja',
+        strImageUrl: '/assets/img/tana-toraja.jpeg',
+        strDescriptionIND: 'Kawasan budaya unik di Sulawesi Selatan dengan rumah adat Tongkonan dan ritual pemakaman tradisional.',
+        strProvince: 'Sulawesi Selatan'
+    },
+    {
+        strTitle: 'Raja Ampat',
+        strImageUrl: '/assets/img/raja-ampat.jpeg',
+        strDescriptionIND: 'Surga bawah laut di Papua Barat dengan keanekaragaman hayati yang luar biasa.',
+        strProvince: 'Papua Barat'
+    },
+    {
+        strTitle: 'Danau Toba',
+        strImageUrl: '/assets/img/danau-toba.jpeg',
+        strDescriptionIND: 'Danau vulkanik terbesar di dunia yang memiliki pulau Samosir di tengahnya.',
+        strProvince: 'Sumatera Utara'
+    },
+    {
+        strTitle: 'Kampung Naga',
+        strImageUrl: '/assets/img/kampung-naga.jpeg',
+        strDescriptionIND: 'Perkampungan adat Sunda yang masih mempertahankan gaya hidup tradisional.',
+        strProvince: 'Jawa Barat'
+    },
+    {
+        strTitle: 'Wae Rebo',
+        strImageUrl: '/assets/img/wae-rebo.jpeg',
+        strDescriptionIND: 'Desa adat terpencil di pegunungan Flores dengan rumah kerucut tradisional.',
+        strProvince: 'NTT'
     }
 ];
+
 
 
 class Destinations {
